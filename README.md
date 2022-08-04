@@ -1,1 +1,1 @@
-<img src="https://github.com/Satya12325/Weatjer-application/raw/master/screencapture-localhost-19006-2022-08-03-08_46_35.png?raw=true"/>
+<img src="https://github.com/Satya12325/weather-application-by-Typescript/blob/master/Screenshot_2022-08-04-14-04-22-53_f73b71075b1de7323614b647fe394240.jpg?raw=true"/>
