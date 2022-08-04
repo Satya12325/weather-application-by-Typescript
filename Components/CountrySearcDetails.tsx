@@ -76,7 +76,7 @@ const CountySearchDetails: React.FC<CountrySearchDetailsProps> = ({
           <Text style={{ fontSize: 22, color: "white" }}>
             latitude : {lat}{" "}
           </Text>
-          <Text style={{ fontSize: 22, color: "white" }}>Longitude {lng}</Text>
+          <Text style={{ fontSize: 22, color: "white" }}>Longitude : {lng}</Text>
         </View>
       </View>
 
