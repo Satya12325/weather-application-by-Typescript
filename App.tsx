@@ -41,6 +41,7 @@ export default function App() {
     }
   };
   const fetchCountryData = async (countryname: string) => {
+    setLooding(true);
     setLoaded(false);
     const Api = `https://restcountries.com/v3.1/name/${countryname}`;
     try {
