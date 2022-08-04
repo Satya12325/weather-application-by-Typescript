@@ -17,7 +17,7 @@ interface CountrySearchDetailsProps {
     population: Number;
     latlng: [Number, Number];
     flags: {
-      svg: string;
+      png: string;
     };
   };
   fetchCountryData: (message: string) => void;
@@ -33,7 +33,7 @@ const CountySearchDetails: React.FC<CountrySearchDetailsProps> = ({
     capital,
     population,
     latlng,
-    flags: { svg },
+    flags: { png },
   } = countryData;
   const [cap] = capital;
   const [lat, lng] = latlng;
@@ -50,7 +50,7 @@ const CountySearchDetails: React.FC<CountrySearchDetailsProps> = ({
           <Image
             style={styles.tinyLogo}
             source={{
-              uri: `${svg}`,
+              uri: `${png}`,
             }}
           />
         </View>

@@ -92,9 +92,10 @@ export default function App() {
           fetchWeatherData={fetchWeatherData}
         />
 
-        <View style={{ display: display }}>
+        <View>
           {looding ? (
-            <ActivityIndicator color="gray" size={36} />
+            // <ActivityIndicator color="gray" size={36} />
+            <View></View>
           ) : (
             <Weather weatherData={weatherData} />
           )}
@@ -119,4 +120,8 @@ const styles = StyleSheet.create({
     flex: 1,
     width: Dimensions.get("screen").width,
   },
+  weatherNone:{
+    display:"none",
+  },
+  
 });
